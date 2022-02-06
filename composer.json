@@ -1,0 +1,25 @@
+{
+    "name": "sabolfazlsh/hexttp",
+    "version": "1.0.0",
+    "description": "Hexttp is a simple http library for php",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["http", "rest", "restful", "client", "http client", "api"],
+    "autoload": {
+        "psr-4": {
+            "Hexttp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abolfazl Hosseiny",
+            "email": "SAbolfazlSH@hotmail.com",
+            "homepage": "https://sabolfazlsh.ir"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2",
+        "ext-curl": "*"
+    }
+}
